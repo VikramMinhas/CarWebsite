@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(images/tlx1.png);
+    background-size: auto;
+    float: right;
+    background-position: center;
+    padding: 20px 50px;
+    width: 1000px;
+    height: 1000px;
+    transition: background-image 1s;
+    margin-right: 3%;
+}
+
+.nav {
+    width: 100px;
+    display: inline-flex;
+}
+
+nav .logo {
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 150px;
+    cursor: pointer;
+}
+
+.details {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.details h1 {
+    font-size: 70px;
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.details h2 {
+    margin-top: 2%;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.details p {
+    font-size: 20px;
+    margin-top: 2%;
+    max-width: 450px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.details h3 {
+    margin-top: 4%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-select div {
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: 12%;
+}
+
+.color-select {
+    display: flex;
+    margin-top: 70px;
+}
+
+.color-select #gray {
+    background: gray;
+}
+
+.color-select #red {
+    background: red;
+}
+
+.color-select #black {
+    background: black;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Acura TLX A-Spec</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container" id="tlx"></div>
+        <nav>
+            <img src="images/AcuraLogo.png" class="logo">
+        </nav>
+
+        <div class="details">
+            <h1>2022 Acura TLX</h1>
+            <h2>A-Spec (SH-AWD)</h2>
+            <p>The 2022 TLX pushes the limits of performance, tech, and design. The TLX is ready with an exhilarating 272-HP108 VTEC® Turbo engine that befits the premium amenities and alluring, sculpted body.</p>
+            <h3>Choose your color:</h3>
+        </div>
+
+        <div class="color-select">
+            <div id="gray"></div>
+            <div id="red"></div>
+            <div id="black"></div>
+        </div>
+
+<script>
+    let grayButton = document.getElementById("gray");
+    let redButton = document.getElementById("red");
+    let blackButton = document.getElementById("black");
+    let tlx = document.getElementById("tlx");
+
+    grayButton.onclick = function() {
+        tlx.style.backgroundImage = "url(images/tlx1.png)";
+    }
+    redButton.onclick = function() {
+        tlx.style.backgroundImage = "url(images/tlx2.png)";
+    }
+    blackButton.onclick = function() {
+        tlx.style.backgroundImage = "url(images/tlx3.png)";
+    }
+</script>
+
+</body>
+</html>
